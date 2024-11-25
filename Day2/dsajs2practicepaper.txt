@@ -1,0 +1,96 @@
+CodingOtt
+www.codingott.com
+Helpline - 9472395194
+---------------------------------------------
+Day-2/60 JavaScript DSA Practice Paper
+---------------------------------------------
+1. Write a program to add an element to the end of an array.
+let arr = [1, 2, 3];
+arr.push(4);
+console.log(arr);
+
+2. Write a program to add an element to the beginning of an array.
+let arr = [1, 2, 3];
+arr.unshift(0);
+console.log(arr);
+
+3. Write a program to remove an element from the end of an array.
+let arr = [1, 2, 3];
+arr.pop();
+console.log(arr);
+
+4. Write a program to remove an element from the beginning of an array.
+let arr = [1, 2, 3];
+arr.shift();
+console.log(arr);
+
+5. Write a program to find the length of an array.
+let arr = [1, 2, 3];
+console.log(arr.length);
+
+6. Write a program to loop through all the elements of an array using a for loop.
+let arr = [1, 2, 3];
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
+
+7. Write a program to loop through all the elements of an array using a for...of loop.
+let arr = [1, 2, 3];
+for (let element of arr) {
+  console.log(element);
+}
+
+8. Write a program to loop through all the elements of an array using the forEach method.
+let arr = [1, 2, 3];
+arr.forEach((element) => {
+  console.log(element);
+});
+
+9. Write a program to modify an element in the array by its index.
+let arr = [1, 2, 3];
+arr[0] = 10;
+console.log(arr);
+
+10. Write a program to check if an element exists in an array.
+let arr = [1, 2, 3];
+console.log(arr.includes(2));
+
+11. Write a program to find the index of an element in an array.
+let arr = [1, 2, 3];
+console.log(arr.indexOf(3));
+
+12. Write a program to create a new array using the map() method, where each element is doubled.
+let nums = [1, 2, 3];
+let doubled = nums.map((n) => n * 2);
+console.log(doubled);
+
+13. Write a program to create a new array using the filter() method, containing only even numbers from a given array.
+let nums = [1, 2, 3, 4, 5];
+let even = nums.filter((n) => n % 2 === 0);
+console.log(even);
+
+14. Write a program to use the reduce() method to calculate the sum of an array of numbers.
+let nums = [1, 2, 3, 4];
+let sum = nums.reduce((acc, curr) => acc + curr, 0);
+console.log(sum);
+
+15. Write a program to extract a portion of an array using the slice() method.
+let nums = [1, 2, 3, 4, 5];
+let part = nums.slice(1, 4);
+console.log(part);
+
+16. Write a program to remove or add elements from an array using the splice() method.
+let nums = [1, 2, 3, 4];
+nums.splice(2, 1, 99);
+console.log(nums);
+
+17. Write a program to sort an array in ascending order using the sort() method.
+let nums = [3, 1, 4, 2];
+nums.sort((a, b) => a - b);
+console.log(nums);
+
+18. Write a program to combine two arrays using the concat() method
+let arr1 = [1, 2];
+let arr2 = [3, 4];
+let combined = arr1.concat(arr2);
+console.log(combined);
