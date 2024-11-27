@@ -1,0 +1,4 @@
+Paradigm
+--------------------------------------------
+1.Procedure oriented
+2.Object oriented
